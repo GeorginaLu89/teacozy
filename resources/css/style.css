@@ -1,0 +1,146 @@
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+nav {
+  display: inline-flex;
+  padding-top: 7px;
+  list-style: none;
+}
+
+nav li {
+  padding: 7px;
+  margin-right: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 20px;
+  border-bottom: solid seashell 1px;
+  margin-top: -7px;
+  margin-left: -8px;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+}
+
+.header img {
+  height: 50px;
+}
+
+.containers {
+  position: relative;
+  margin-top: 70px;
+  margin-left:20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission .text {
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tea-of-the-month {
+  width: 1000px;
+  margin-left: 8%;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+.menu h4{
+  margin-top: 10px;
+}
+
+.berry .spiced .donut .myrtle .bedford {
+  display: block;
+  margin: 0 20px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 600px;
+  margin-top: 50px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.east-bayside {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.footer {
+  height: 200px;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
